@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_line_divider">#83847E</color>
+    <color name="default_background">#2F2F2F</color>
+
+    <!--Color-->
+    <color name="green">#00a85e</color>
+    <color name="trans_black">#F22B2B29</color>
+    <color name="trans_gray">#F2AAAAAA</color>
+</resources>

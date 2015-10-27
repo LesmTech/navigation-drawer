@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/action_chat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/icon_menu_cancel"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_green_solid"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/action_settings"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/icon_menu_cancel"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/action_invite"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/icon_menu_cancel"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/action_question"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/icon_menu_cancel"
+            android:gravity="center"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
